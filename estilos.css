@@ -1,0 +1,66 @@
+/* estilos dos mais diversos e secretos *
+ *                                      *
+ *                        estilo ninja  */
+
+
+ body {
+     padding: 1em;
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4dFI5T1vqTnbPUvL6Jx84vKNd-gHVTnDKF3511e0wqVSH4MkD);
+     background-size: cover;
+     text-align: justify;
+     color: coral;
+ }
+
+ h1 {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: darkviolet;
+ }
+
+ h2 {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: slateblue;
+ }
+
+ em.nota {
+     opacity: 0.7;
+ }
+ em.nota::before {
+     content: "Nota: ";
+    
+ }
+ p.numeroDoPasso::first-letter {
+     font-size: 30px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: darkorchid;
+ }
+
+ img.logomarca {
+     width: 200px;
+ }
+
+ img:not(.logomarca) {
+     border-radius: 20px;
+ }
+
+ iframe, img:not(.logomarca) {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ a[href ^= "http"] {
+     background-image: url(img/globo.png);
+     background-repeat: no-repeat;
+     padding-left: 1em;
+ }
+ a:hover {
+     color: violet;
+ }
+
+ a:visited {
+     color: deeppink;
+ }
+
+ a:link:not(.externa) {
+     color: fuchsia;
+ }
